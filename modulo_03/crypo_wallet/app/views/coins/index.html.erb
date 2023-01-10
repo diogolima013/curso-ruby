@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Coins</h1>
+<h1>Moedas</h1>
 
 <table>
   <thead>
@@ -17,7 +17,7 @@
       <tr>
         <td><%= coin.description %></td>
         <td><%= coin.acronym %></td>
-        <td><%= coin.url_image %></td>
+        <td> <%= image_tag coin.url_image, width: 25, height: 25 %> </td>
         <td><%= link_to 'Show', coin %></td>
         <td><%= link_to 'Edit', edit_coin_path(coin) %></td>
         <td><%= link_to 'Destroy', coin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
