@@ -1,6 +1,7 @@
 <h1>Seja Bem-Vindo!</h1>
-<p>O idioma usado nessa aplicação é: <b> <%= locale(I18n.locale) %> </b></p>
-<p><b>Data:</b> <%= Date.today %></p>
+<p>O idioma usado nessa aplicação é: <b> <%= locale %> </b></p>
+<p><b>Data:</b> <%= l(Date.today) %></p>
+<p><%= t('hello')%></p>
 
 <%= render "menu" %>
 
@@ -9,4 +10,4 @@
 </p>
 
 <p> Eu sou uma variavél de instância/ sessão : <b><%= @meu_nome %></b>  </p>
-<p> Meu curso é : <b><%= @curso %></b>  </p>
+<p> Meu curso é : <b><%= @curso %></b> </p>
