@@ -1,5 +1,12 @@
 {
   "name": "crypo_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "notify-js-legacy": "^0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diogo",
+  "license": "MIT"
 }
