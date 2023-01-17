@@ -1,5 +1,5 @@
 <p class="lead">
-<%= link_to "Cadastro de moedas", coins_path, class:"btn btn-primary btn-lg" %>
+<%= link_to "#{Coin.model_name.human}", coins_path, class:"btn btn-primary btn-lg" %>
 
-<%= link_to "Cadastro de Tipo de mineração", mining_types_path, class:"btn btn-primary btn-lg" %>
+<%= link_to "#{MiningType.model_name.human}", mining_types_path, class:"btn btn-primary btn-lg" %>
 </p>
